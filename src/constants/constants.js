@@ -1,0 +1,38 @@
+export const projects = [
+  {
+    title: 'Product Hunt Clone',
+    description: 'Full stack application that mimics the Product Hunt website, made with React with Next.js on the front, and Firebase for user authentication and the entire database',
+      image: '/images/1.png',
+      tags: ['React', 'Next.js', 'Firebase'],
+    code: 'https://github.com/LCisternas/producthunt-next.js',
+    live: 'https://producthuntclone-nextjs-firebase.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'Gatsby + Strapi',
+    description: 'Application made with Gastby - React on the front, and using the Strapi CMS deployed in heroku for the entire database',
+    image: '/images/2.png',
+    tags: ['React', 'Gastby', 'Strapi'],
+    code: 'https://google.com',
+    live: 'https://google.com',
+    id: 1,
+  },
+  {
+    title: 'Task Manager',
+    description: 'Full stack application that allows user login and registration, create projects, and assign personalized tasks for each project. Use React on the front and express, mongoDB, MongoAtlas and JsonWebToken on the back',
+      image: '/images/3.jpg',
+      tags: ['React', 'Node', 'Express', 'MongoDB', 'JWT'],
+    code: 'https://google.com',
+    live: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Pokepedia',
+    description: 'Application made with react and styled component that consumes the pokeapi API and lists pokemons according to their category',
+    image: '/images/4.jpg',
+    tags: ['React'],
+    code: 'https://google.com',
+    live: 'https://google.com',
+    id: 3,
+  },
+];
