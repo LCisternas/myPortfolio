@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['React', 'Next.js', 'Firebase'],
     code: 'https://github.com/LCisternas/producthunt-next.js',
-    live: 'https://producthuntclone-nextjs-firebase.vercel.app/',
+    live: 'https://producthunt-next-js.vercel.app',
     id: 0,
   },
   {
