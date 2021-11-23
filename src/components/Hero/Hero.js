@@ -42,7 +42,7 @@ const Hero = () => {
           <SectionText>
             Hello! This is my web portfolio. I am a full stack developer. Here you can find all my most recent works, see them live, and if you like, check the code. Have a nice day!
           </SectionText>
-          <Button  ><a href="#!">¡ My CV !</a></Button>
+          <Button  ><a href="https://drive.google.com/file/d/1n0ahT29jFLnbsOzZZy9hQK9H0yXu6PsZ/view?usp=sharing" target="_blank">¡ My CV !</a></Button>
         </LeftSection>
       </Section>
     </>
