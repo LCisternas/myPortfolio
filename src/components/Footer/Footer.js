@@ -12,15 +12,15 @@ const Footer = () => {
           <Slogan>Are you interested in my work? Contact me, let's talk!</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/LCisternas">
+          <SocialIcons href="https://github.com/LCisternas" target='_blank'>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/lucas-cisternas-software-engineering/">
+          <SocialIcons href="https://www.linkedin.com/in/lucas-cisternas/" target='_blank'>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.youtube.com/channel/UCVsWyXJ6WRFyJev-FFE_gdQ">
+          {/* <SocialIcons href="https://www.youtube.com/channel/UCVsWyXJ6WRFyJev-FFE_gdQ">
             <AiFillYoutube size="3rem"/>
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

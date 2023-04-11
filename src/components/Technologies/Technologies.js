@@ -21,8 +21,9 @@ const Technologies = () =>  (
             Redux <br />
             Gastby <br />
             Next <br />
-            CSS Modules <br />
-            Styled Components
+            CSS <br />
+            SCSS <br />
+            TypeScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,8 +38,9 @@ const Technologies = () =>  (
             Express <br />
             MongoDB <br />
             PostgreSQL <br />
-            Firebase <br />
-            JWT
+            FastAPI <br />
+            Flask <br />
+            Django
           </ListParagraph>
         </ListContainer>
       </ListItem>

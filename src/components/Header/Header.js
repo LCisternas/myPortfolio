@@ -8,9 +8,10 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+        {/* <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
           <h3>LCisternas</h3>
-        </a>
+        </a> */}
+        <NavLink>LCisternas</NavLink>
       </Link>
     </Div1>
     <Div2>
@@ -31,15 +32,15 @@ const Header = () =>  (
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/LCisternas">
+        <SocialIcons href="https://github.com/LCisternas" target='_blank'>
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/lucas-cisternas-software-engineering/">
+        <SocialIcons href="https://www.linkedin.com/in/lucas-cisternas/" target='_blank'>
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.youtube.com/channel/UCVsWyXJ6WRFyJev-FFE_gdQ">
+        {/* <SocialIcons href="https://www.youtube.com/channel/UCVsWyXJ6WRFyJev-FFE_gdQ">
           <AiFillYoutube size="3rem"/>
-        </SocialIcons>
+        </SocialIcons> */}
       </Div3>
     </Container>
 );
