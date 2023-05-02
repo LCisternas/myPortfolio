@@ -8,8 +8,8 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
-    {/* <GridContainer> */}
-    {/* {projects.map((p, i) => {
+    <GridContainer>
+    {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
           <Img src={p.image} />
@@ -32,11 +32,11 @@ const Projects = () => (
             </UtilityList>
           </BlogCard>
         );
-      })} */}
-    <SectionText>
+      })}
+    {/* <SectionText>
       Projects in the process of being updated, soon you will be able to see them :)
-    </SectionText>
-    {/* </GridContainer> */}
+    </SectionText> */}
+    </GridContainer>
   </Section>
 );
 

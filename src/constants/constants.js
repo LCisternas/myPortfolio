@@ -1,11 +1,11 @@
 export const projects = [
-  // {
-  //   title: 'Movie App',
-  //   description: 'Full stack application with login and user registration, search, list and save favorite movies',
-  //     image: '/images/3.png',
-  //     tags: ['React', 'Node', 'Express', 'MongoDB', 'JWT'],
-  //   code: 'https://github.com/LCisternas/OMDB',
-  //   live: 'https://movie-app-lcisternas.netlify.app',
-  //   id: 2,
-  // },
+  {
+    title: 'Twitter Clone',
+    description: 'Full stack application, made with Next.js, PrismaORM, MongoDB. This app imitates the main features of Twitter',
+      image: '/images/twitter.png',
+      tags: ['TypeScript', 'Next.js', 'Prisma', 'MongoDB', 'JWT'],
+    code: 'https://github.com/LCisternas/splutter-app',
+    live: 'https://splutter-app.vercel.app/',
+    id: 1,
+  },
 ];
